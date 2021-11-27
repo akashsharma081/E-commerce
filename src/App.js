@@ -9,6 +9,7 @@ import Contact from './Components/Contact';
 import Services from './Components/Services';
 import Product from './Components/Product';
 import Items from './Components/Items';
+import Login from './Components/Login';
 
 
 function App() {
@@ -18,12 +19,13 @@ function App() {
   <BrowserRouter> 
      <Header />   
       <Routes> 
-          <Route path='/Home' element={<Home/>} />
+          <Route path='/' element={<Home/>} />
           <Route path='/About'  element={ <About />}/>
           <Route path='/Contact'  element={ <Contact />}/>
           <Route path='/Services'  element={ <Services />}/>
           <Route path='/Product'  element={ <Product />}/>
           <Route path='/Items'  element={ <Items />}/> 
+          <Route path='/Login'  element={ <Login />}/> 
       </Routes> 
           <Footer/>
   </BrowserRouter>
