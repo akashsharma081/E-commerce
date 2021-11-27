@@ -870,7 +870,6 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 7em;
 }
 
-
 .fh5co-tabs .fh5co-tab-nav {
   clear: both;
   margin: 0 0 3em 0;
@@ -1701,6 +1700,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .itemssetup3{
   margin-top: 100px;
 }
+
 body{
   margin-top:20px;
   background:#eee;
@@ -1905,8 +1905,7 @@ body{
   padding: 0 0 5px!important
 }
 
-.product-deatil .carousel-control.left,
-.product-deatil .carousel-control.right {
+.product-deatil .carousel-control.left, .product-deatil .carousel-control.right {
   background: none!important
 }
 
@@ -1919,8 +1918,10 @@ body{
 }
 
 .product-deatil .name {
+  text-align: left;
   margin-top: 0;
   margin-bottom: 0
+  
 }
 
 .product-deatil .name small {
@@ -1932,12 +1933,14 @@ body{
 }
 
 .product-deatil .price-container {
+  text-align: left;
   font-size: 24px;
   margin: 0;
   font-weight: 300
 }
 
 .product-deatil .price-container small {
+  text-align: left;
   font-size: 12px
 }
 
@@ -1960,6 +1963,7 @@ list-style: none ;
 }
 
 .product-deatil .certified {
+  text-align: left;
   margin-top: 10px
 }
 
@@ -2023,9 +2027,17 @@ list-style: none ;
   }
 }
 
+.butn1{
+  text-align: left;
+}
+
 .message img.online {
   width:40px;
   height:40px;
+}
+
+.big{
+  height: "600px";
 }
 
 /* Product Page css */

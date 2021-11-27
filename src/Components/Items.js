@@ -198,32 +198,35 @@ export class Items extends Component {
 	render() {
 		return (
 	<div class="container-fluid">
-	     	<div class="product-content box5 product-wrap clearfix product-deatil">
-				<div class="row ">
-					<div class="col-md-5 col-sm-12 col-xs-12 ">
-								<div class="product-image ">
-								<div id="myCarousel-2" class="carousel slide ">
-									<ol class="carousel-indicators">
-										<li data-target="#myCarousel-2" data-slide-to="0" class=""></li>
-										<li data-target="#myCarousel-2" data-slide-to="1" class="active"></li>
-										<li data-target="#myCarousel-2" data-slide-to="2" class=""></li>
-									</ol>
-									<div class="carousel-inner">
-										<div class="item active">
-											<img src="https://via.placeholder.com/700x400/FFB6C1/000000" class="img-responsive" alt="" />
-										</div>
-										<div class="item">
-											<img src="https://via.placeholder.com/700x400/87CEFA/000000" class="img-responsive" alt="" />
-										</div>
-										<div class="item">
-											<img src="https://via.placeholder.com/700x400/B0C4DE/000000" class="img-responsive" alt="" />
-										</div>
-									</div>
-									<a class="left carousel-control" href="#myCarousel-2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
-									<a class="right carousel-control" href="#myCarousel-2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-								</div>
-							</div>		
-					</div>
+	     	<div class="product-content product-wrap clearfix product-deatil">
+				<div class="row">
+				<div class="col-md-5 col-sm-12 col-xs-12">
+                <div class="product-image">
+                    <div id="myCarousel-2" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-2" data-slide-to="0" class=""></li>
+                            <li data-target="#myCarousel-2" data-slide-to="1" class="active"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="2" class=""></li>
+                        </ol>
+                        <div class="carousel-inner">
+                   
+                            <div class="item active">
+                                <img src="https://via.placeholder.com/700x400/FFB6C1/000000" class="img-responsive" alt="" />
+                            </div>
+                           
+                            <div class="item">
+                                <img src="https://via.placeholder.com/700x400/87CEFA/000000" class="img-responsive" alt="" />
+                            </div>
+                          
+                            <div class="item">
+                                <img src="https://via.placeholder.com/700x400/B0C4DE/000000" class="img-responsive" alt="" />
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel-2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                        <a class="right carousel-control" href="#myCarousel-2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                    </div>
+                </div>
+		</div>
 					<div class="col-md-6 col-md-offset-0 col-sm-12 col-xs-12">
 						<h2 class="name">
 							Product Name Title Here
